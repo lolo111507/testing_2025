@@ -4,6 +4,14 @@
 **2025**
 
 ``` JavaScript
+// suma.js
+function sumar(a, b) {
+    return a + b;
+}
+
+module.exports = sumar;
+
+
 // suma.test.js
 const sumar = require('./suma');
 
