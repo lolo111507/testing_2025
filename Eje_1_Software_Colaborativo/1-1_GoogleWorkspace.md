@@ -17,6 +17,9 @@ Algunas de las herramientas más conocidas son:
 
 Estas herramientas están diseñadas para integrarse entre sí, ofreciendo una solución completa para la comunicación y colaboración en el trabajo. 
 
+link: https://www.youtube.com/watch?v=nb_sUdpAmf8
+
+
 ## Drive
 
 _Definición:_ Google Drive es un servicio de alojamiento y sincronización de archivos desarrollado por Google. Lanzado el 24 de abril del 2012, el servicio permite a sus usuarios almacenar archivos en la nube (en los servidores de Google), sincronizar archivos entre dispositivos y compartir archivos. Cada usuario cuenta con 15 gigabytes (GB) de espacio gratuito para almacenar sus archivos, ampliables mediante diferentes planes de pago. Es accesible a través del sitio web desde computadoras y disponen de aplicaciones para Android e iOS que permiten editar documentos y hojas de cálculo.1​

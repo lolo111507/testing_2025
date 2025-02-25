@@ -14,7 +14,7 @@ Al finalizar el cursado de "Testing", se espera que los estudiantes sean capaces
 
 #### Ejes de Aprendizaje:
 
-#### 1. Herramientas Colaborativas y Control de Código Fuente (VCS)
+#### 1. Software Colaborativo y Control de Código Fuente (VCS)
 
 **Temas:**
 - Colaboración y Gestión de Proyectos en Equipo
