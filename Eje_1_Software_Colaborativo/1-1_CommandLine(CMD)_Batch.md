@@ -28,19 +28,22 @@ A continuación se proporcionas los comandos más comunes usados en Windows y su
 | Visualiza la salida std | echo | echo | echo Testing_QA_CUAC |
 ____
 
-Para mas detalles sobre los comando basicos de CMD, leer: https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd
+Para mas detalles sobre los comando basicos de CMD, leer: 
 
+https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd
+____
 
 **Ejercicio 1:**
+En tu computadora crea, desde el terminal (Run.. "cmd"), una carpeta llamada "temp2025" en la dirección C:\\.
 
-  1. En tu computadora crea, desde el terminal (Run.. "cmd"), una carpeta llamada "temp2025" en la dirección C:\
-        mkdir C:\temp2025
+`mkdir C:\temp2025`
 
-**Ejercicio 2:** - Creación de carpetas y archivos por línea de comandos.  
-    
- 1.  Comandos cd, mkdir, dir, tree: Crear el sig. arbol de directorios y listalo en pantalla.
+**Ejercicio 2:** Creación de carpetas y archivos por línea de comandos.  
 
-```
+a. Comandos a utilizar:  cd, mkdir, dir, tree.
+
+Crear el sig. árbol de directorios y listarlo en pantalla.
+
      C:\temp2025\
 			|- Testing\
 				|- eje1-SofwareColaborativo
@@ -48,22 +51,20 @@ Para mas detalles sobre los comando basicos de CMD, leer: https://www.xataka.com
 				|- eje3-TestingQA
 			|- Programacion4
 			|- AppDev
-```
 
-2. Comando type: Crear 1 archivos ejeX-readme.txt, en cada una de las carpetas de los ejes (reamplazando la X por el número de eje Correspondiente). 
 
-     Utilizar el comando: `tree C:\temp2025\ /F`  para listar el arból de directorio y los archivos creados. 
+b. Comando type: Crear 1 archivos ejeX-readme.txt, en cada una de las carpetas de los ejes (reamplazando la X por el número de eje Correspondiente).  Utilizar el comando: `tree C:\temp2025\ /F`  para listar el arból de directorio y los archivos creados. 
 	
- 3. Comando notepad:	editar cada uno de los archivos txt creado y como contenido en cada archivo, leer y copiar lo que refiere a cada eje en https://github.com/lole-s/testing_2025/blob/main/Dise%C3%B1oCurricular.md
+c. Comando notepad:	editar cada uno de los archivos txt creado y como contenido en cada archivo, leer y copiar lo que refiere a cada eje en https://github.com/lole-s/testing_2025/blob/main/Dise%C3%B1oCurricular.md
 
 
- ### Batch! Bash!. 
+### Batch! Bash!. 
  
-	Un archivo Batch en Windows es un archivo de texto que contiene una serie de comandos que se ejecutan en la línea de comandos. Estos archivos tienen una extensión .bat o .cmd y se utilizan para automatizar tareas repetitivas o realizar secuencias de comandos de manera eficiente.
+Un archivo Batch en Windows es un archivo de texto que contiene una serie de comandos que se ejecutan en la línea de comandos. Estos archivos tienen una extensión .bat o .cmd y se utilizan para automatizar tareas repetitivas o realizar secuencias de comandos de manera eficiente.
  
-	Bash (Bourne Again Shell) es un intérprete de comandos utilizado en sistemas Unix y Unix-like, como Linux y macOS. A diferencia de los archivos Batch en Windows, los scripts Bash se ejecutan en una terminal y pueden contener comandos mucho más avanzados y potentes para la administración del sistema y la automatización de tareas. Los archivos de script Bash suelen tener una extensión .sh.
+Bash (Bourne Again Shell) es un intérprete de comandos utilizado en sistemas Unix y Unix-like, como Linux y macOS. A diferencia de los archivos Batch en Windows, los scripts Bash se ejecutan en una terminal y pueden contener comandos mucho más avanzados y potentes para la administración del sistema y la automatización de tareas. Los archivos de script Bash suelen tener una extensión .sh.
 
-	En resumen, mientras que Batch es específico de Windows, Bash es más común en sistemas Unix y ofrece mayor flexibilidad y potencia para scripts y automatización
+En resumen, mientras que Batch es específico de Windows, Bash es más común en sistemas Unix y ofrece mayor flexibilidad y potencia para scripts y automatización
 	
 #### Lista de Comandos Batch  
 
@@ -155,10 +156,10 @@ Guarda este script en un archivo con extensión `.bat`, por ejemplo, `verificar_
 
 ####
 
-**Ejercicio 3** Investigar y crear archivo BATCH (hora.bat) que muestre por consola la fecha y hora actual. 
+**Ejercicio 3**: Investigar y crear archivo BATCH (hora.bat) que muestre por consola la fecha y hora actual. 
 
-**Ejercicio 4** Investigar y crear archivo BATCH (respaldo.bat) para respaldar automaticamente los archivos *txt* creados en el ejercicio 2. Almacenar los respaldos en "C:\temp2025\backup"
+**Ejercicio 4**: Investigar y crear archivo BATCH (respaldo.bat) para respaldar automaticamente los archivos *txt* creados en el ejercicio 2. Almacenar los respaldos en "C:\temp2025\backup"
 
-**Ejercicio 5** Investigar y crear archivo BATCH (SeVemoEnDisney.bat) para lanzar el mensaje "Se vemo En Disney"  y una cuenta regresiva de 10 segundos que apague la PC. 
+**Ejercicio 5**: Investigar y crear archivo BATCH (SeVemoEnDisney.bat) para lanzar el mensaje "Se vemo En Disney"  y una cuenta regresiva de 10 segundos que apague la PC. 
 
-**Ejercicio 6** Investigar y modificar el archivo BATCH (`verificar_numero.bat`) del ejemplo para que controle que el usuario ingrese realemente un número y no otra cosa.
+**Ejercicio 6**: Investigar y modificar el archivo BATCH (`verificar_numero.bat`) del ejemplo para que controle que el usuario ingrese realemente un número y no otra cosa.
