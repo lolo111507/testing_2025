@@ -30,7 +30,14 @@ ____
 
 Para mas detalles sobre los comando basicos de CMD, leer: 
 
-https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd
+https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd**
+
+
+Videos Relacionados: 
+
+**Que es una Terminal:** https://youtu.be/gN_0sWWV3CA?si=ATd4zkttzvLnsFC7
+
+**Terminal en VSC:** https://youtu.be/reRaCw45CU4?si=psEN2rIUaD5PjqdQ
 ____
 
 **Ejercicio 1:**
