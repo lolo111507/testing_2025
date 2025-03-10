@@ -2,7 +2,7 @@
 
 El Símbolo del sistema, también llamado CMD ( por la contracción de la palabra __**C**o**M**man**D**__), forma parte de Windows y no puede ser desinstalado. Es una herramienta que, mediante comandos, permite realizar acciones avanzadas. Si bien puede parecer a la Terminal de GNU/Linux, el CMD no es tan potente.
 
-A continuación se proporcionas los comandos más comunes usados en Windows y sus homólogos en Linux.ones.
+A continuación se proporcionas los comandos más comunes usados en Windows y sus homólogos en Linux.
 
 **TABLA DE COMANDOS SIMILARES ENTRE WINDOWS Y LINUX**
 
@@ -30,14 +30,14 @@ ____
 
 Para mas detalles sobre los comando basicos de CMD, leer: 
 
-https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd**
+https://www.xataka.com/basics/comandos-basicos-para-dar-tus-primeros-pasos-consola-windows-cmd
 
 
 Videos Relacionados: 
 
 **Que es una Terminal:** https://youtu.be/gN_0sWWV3CA?si=ATd4zkttzvLnsFC7
 
-**Terminal en VSC:** https://youtu.be/reRaCw45CU4?si=psEN2rIUaD5PjqdQ
+**Comandos Básicos CMD:** http://youtube.com/watch?v=W6434nulBu8
 ____
 
 **Ejercicio 1:**
@@ -72,7 +72,11 @@ Un archivo Batch en Windows es un archivo de texto que contiene una serie de com
 Bash (Bourne Again Shell) es un intérprete de comandos utilizado en sistemas Unix y Unix-like, como Linux y macOS. A diferencia de los archivos Batch en Windows, los scripts Bash se ejecutan en una terminal y pueden contener comandos mucho más avanzados y potentes para la administración del sistema y la automatización de tareas. Los archivos de script Bash suelen tener una extensión .sh.
 
 En resumen, mientras que Batch es específico de Windows, Bash es más común en sistemas Unix y ofrece mayor flexibilidad y potencia para scripts y automatización
-	
+________
+**Ejemplo Batch:** https://www.youtube.com/watch?v=uTQD5hAKURg
+**Programación Bash:** https://www.youtube.com/watch?v=0tIZhTAuNuU
+
+________
 #### Lista de Comandos Batch  
 
 Lista de algunos de los comandos más comunes y útiles en Batch, organizados por categorías:
