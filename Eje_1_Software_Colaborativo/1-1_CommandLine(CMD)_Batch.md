@@ -169,7 +169,7 @@ Guarda este script en un archivo con extensión `.bat`, por ejemplo, `verificar_
 
 **Ejercicio 3**: Investigar y crear archivo BATCH (hora.bat) que muestre por consola la fecha y hora actual. 
 
-**Ejercicio 4**: Investigar y crear archivo BATCH (respaldo.bat) para respaldar automaticamente los archivos *txt* creados en el ejercicio 2. Almacenar los respaldos en "C:\temp2025\backup"
+**Ejercicio 4**: Investigar y crear archivo BATCH (respaldo.bat) para respaldar automaticamente los archivos *txt* creados en el ejercicio 1. Almacenar los respaldos en "C:\temp2025\backup"
 
 **Ejercicio 5**: Investigar y crear archivo BATCH (SeVemoEnDisney.bat) para lanzar el mensaje "Se vemo En Disney"  y una cuenta regresiva de 10 segundos que apague la PC. 
 
