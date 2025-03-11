@@ -33,36 +33,47 @@ _Trucos google drive:_ https://www.youtube.com/watch?v=EXjt8xW43Yw
 **Ejercicio 1:**	
   1. Inicia sesión en Google Drive.
   2. Crear una carpeta nueva llamada *ProA2025*.
-  3. Ingresa a la carpeta recientemente creada y crea una carpeta para cada asignatura de este año, ejemplo:*Testing*
+  3. Ingresa a la carpeta recientemente creada y crea una carpeta para llamada *Testing*
   4. Ingresar a la carpeta *Testing*  y crear una hoja de cálculo llamada *Testing_Sheet_2025*
   5. Compartir el link del archivo *Testing_Sheet_2025* a la dirección: *jcsodo@escuelasproa.edu.ar*
 
      
 ## Google Sheet
 
-_Definición:_ Hojas de cálculo de Google (en inglés Google Sheets) es un programa de hojas de cálculo que se incluye como parte del conjunto gratuito de Google Docs Editors basado en la web que ofrece Google. Hojas de cálculo de Google está disponible como aplicación web, aplicación móvil para Android, iOS, Windows, BlackBerry y como aplicación de escritorio en Chrome OS de Google. La aplicación es compatible con los formatos de archivo de Microsoft Excel. La aplicación permite a los usuarios crear y editar archivos en línea mientras colaboran con otros usuarios en tiempo real. Las ediciones son rastreadas por el usuario con un historial de revisión que presenta los cambios. La posición de un editor se resalta con un color y un cursor específicos del editor y un sistema de permisos regula lo que los usuarios pueden hacer. Las actualizaciones han introducido funciones que utilizan el aprendizaje automático que ofrece respuestas basadas en preguntas de lenguaje natural en una hoja de cálculo.
+_Definición:_ Hojas de cálculo de Google (en inglés Google SpreadSheets) es un programa de planillas de cálculo que se incluye como parte del conjunto gratuito de Google Docs Editors basado en la web que ofrece Google. Las Hojas de cálculo de Google está disponible como aplicación web, aplicación móvil para Android, iOS, Windows, BlackBerry y como aplicación de escritorio en Chrome OS de Google. La aplicación es compatible con los formatos de archivo de Microsoft Excel. La aplicación permite a los usuarios crear y editar archivos en línea mientras colaboran con otros usuarios en tiempo real. Las ediciones son rastreadas por el usuario con un historial de revisión que presenta los cambios. La posición de un editor se resalta con un color y un cursor específicos del editor y un sistema de permisos regula lo que los usuarios pueden hacer. Las actualizaciones han introducido funciones que utilizan el aprendizaje automático que ofrece respuestas basadas en preguntas de lenguaje natural en una hoja de cálculo.
 
 Referencia: https://es.wikipedia.org/wiki/Hojas_de_c%C3%A1lculo_de_Google
 
 Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6MeASAl2Wc
 
 **Ejercicio 1:** 
-  1. Ir a Google Drive y abrir el archivo *\ProA2024\Testing_QA\Testing_Sheet_?????*.
+  1. Ir a Google Drive y abrir el archivo *\ProA2024\Testing_QA\Testing_Sheet_2025*.
   2. Renombrar la hoja actual "Hoja 1" a "Temas"
   3. En la hoja "Temas" armar la siguiente tabla:
+
      | Fecha | Clase n° | Eje | Tema | Actividad |
      |-------|----------|-----|------|-----------|
-     | 2024-02-28 | 1 | 0 | Presentación | Presentación del espacio curricular |
-     | 2024-03-04 | 2 | 2 | Trabajo Colaborativo | Uso de drive y google sheet |
-  4. Poner en Negrita (CTRL+B) la primer Columna, poner en _cursiva_ (CTRL+I) la casilla 'E1'
-  5. Hacer una grilla con bordes en el rango _A1:E80_ 
+     | 2025-02-26 | 1 | 0 | Presentación | Presentación del espacio curricular |
+     | 2025-03-03 | - | - | Feriado | Carnaval |
+     | 2025-03-05 | 2 | 1 | Línea De Comando CMD | Creación de Carpetar y archivos |
+     | 2025-03-10 | 3 | 1 | Scripts Batch | Creación de Scripts (BATCH) con ayuda de IA |
+     | 2025-03-12 | 4 | 1 | Google Workspace | Crear carpeta Drive, compartir archivo, crear esta hoja sheet |
+
+     -- pintar de Gris las celdas de días feriados y de azul las celdas A1 a E1 
+     -- completar la columna fecha desde 2025-02-26 (A2) hasta 2025-12-17 (A86)
+     -- centrar el contenido de las columnas B y C.
+     
+  5. Poner en Negrita (CTRL+B) la primer Columna, poner en _cursiva_ (CTRL+I) la casilla 'E1'
+  6. Hacer una grilla con bordes en el rango _A1:E86_
+  7. Inmovilizar la primer fila.
+
      
  **Ejercicio 2:** 
-  1. Sobre el mismo documento *\ProA2024\Testing_QA\Testing_Sheet_?????*, crear una nueva Hoja (Hoja 2)
-  2. Renombrar la hoja actual "Hoja 2" a  "Ejercicios"
-  3. En la hoja "Ejercicios":
-  4. Sobre la columna A, listar los números enteros desde 1 hasta el 1000
-  5. Sobre las celda B1, obtener el resultado sumar 1 + 2 + 3 + ... + 1000
+  1. Sobre el mismo documento *\ProA2024\Testing_QA\Testing_Sheet_2025*, crear una nueva Hoja (Hoja 2)
+  2. Renombrar la creada (Hoja 2) a  "Ejercicios"
+  En la hoja "Ejercicios":
+  3. Sobre la columna A, listar los números enteros desde 1 hasta el 1000
+  4. Sobre las celda B1, obtener el resultado sumar 1 + 2 + 3 + ... + 1000
  
  **Ejercicio 3:**
   1. Crear una nuevo Hoja, renombrarla a Recibo
