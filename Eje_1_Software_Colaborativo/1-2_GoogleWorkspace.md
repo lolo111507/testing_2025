@@ -44,7 +44,8 @@ _Definición:_ Hojas de cálculo de Google (en inglés Google SpreadSheets) es u
 
 Referencia: https://es.wikipedia.org/wiki/Hojas_de_c%C3%A1lculo_de_Google
 
-Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6MeASAl2Wc
+ - Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6MeASAl2Wc
+ - Conociendo la interfaz de Google Sheets: https://www.youtube.com/watch?v=RscxwCRQZbg
 
 **Ejercicio 1:** 
   1. Ir a Google Drive y abrir el archivo *\ProA2024\Testing_QA\Testing_Sheet_2025*.
@@ -54,16 +55,17 @@ Componentes basicos de una hoja de cálculo: https://www.youtube.com/watch?v=w6M
      | Fecha | Clase n° | Eje | Tema | Actividad |
      |-------|----------|-----|------|-----------|
      | 2025-02-26 | 1 | 0 | Presentación | Presentación del espacio curricular |
-     | 2025-03-03 | - | - | Feriado | Carnaval |
-     | 2025-03-05 | 2 | 1 | Línea De Comando CMD | Creación de Carpetar y archivos |
-     | 2025-03-10 | 3 | 1 | Scripts Batch | Creación de Scripts (BATCH) con ayuda de IA |
-     | 2025-03-12 | 4 | 1 | Google Workspace | Crear carpeta Drive, compartir archivo, crear esta hoja sheet |
-
+     | 2025-03-03 | 2 | - | Feriado | Carnaval |
+     | 2025-03-05 | 3 | 1 | Línea De Comando CMD | Creación de Carpetar y archivos |
+     | 2025-03-10 | 4 | 1 | Scripts Batch | Creación de Scripts (BATCH) con ayuda de IA |
+     | 2025-03-12 | 5 | 1 | Scripts Batch | Creación de Scripts (BATCH) con ayuda de IA |
+     | 2025-03-17 | 6 | 1 | Google Workspace | Crear carpeta Drive, compartir archivo, crear esta hoja sheet |
+ 
      -- pintar de Gris las celdas de días feriados y de azul las celdas A1 a E1 
      -- completar la columna fecha desde 2025-02-26 (A2) hasta 2025-12-17 (A86)
      -- centrar el contenido de las columnas B y C.
      
-  5. Poner en Negrita (CTRL+B) la primer Columna, poner en _cursiva_ (CTRL+I) la casilla 'E1'
+  5. Poner en Negrita (CTRL+B) la primer fila, poner en _cursiva_ (CTRL+I) la casilla 'E1'
   6. Hacer una grilla con bordes en el rango _A1:E86_
   7. Inmovilizar la primer fila.
 
