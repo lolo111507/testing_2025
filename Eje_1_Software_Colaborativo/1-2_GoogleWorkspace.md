@@ -89,7 +89,7 @@ Referencia: https://es.wikipedia.org/wiki/Hojas_de_c%C3%A1lculo_de_Google
   2. Haga un listado de nombres y notas (4 notas) y calcule la media de cada alumno.
      * copiar el listado nombres de: link lole
      * La media se puede calcular con la función =AVERAGE(XX:YY) o PROMEDIO(XX:YY) 
-     * Y puede ser calculado tamabien sumando los valores y dividiendolo por la candidad de columnas  
+     * Y puede ser calculado tambien sumando los valores y dividiendolo por la candidad de columnas  
  
  **Ejercicio 5:**
   1. Cree un nuevo archivo de Google Sheet llamadado _grafica de funciones_
