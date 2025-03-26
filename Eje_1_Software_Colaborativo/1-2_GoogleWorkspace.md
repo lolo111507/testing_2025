@@ -107,12 +107,13 @@ Sheets:
  + gráficas en google sheet e insertar en google docs (https://www.youtube.com/watch?v=-V7FPvYImfQ)
  + tablas con formato: https://www.youtube.com/watch?v=JWIoTXMVnc8
  + chips inteligente (https://www.youtube.com/watch?v=zWc6t_LERD4)
-		- lugar
-		- archivo
-		- contacto
-		- finance
-		- calendary
-		- valoración
+	- lugar
+	- archivo
+	- contacto
+	- finance
+	- calendary
+	- valoración
+
  + formulas unique, query, etc (https://www.youtube.com/watch?v=IeoxRheRoGg)
  + formato de Unidades y números (https://www.youtube.com/watch?v=vbtsa2ocwTU)
 	
@@ -120,9 +121,10 @@ Sheets:
 
 https://tesel.mx/como-usar-python-para-leer-y-escribir-datos-a-una-hoja-de-calculo-de-google-sheets-8879/
 
-Comandos:    python -m venv venv
-            .\venv\Scripts\activate
-            pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+Comandos:    
+	- python -m venv venv
+ 	- .\venv\Scripts\activate
+  	- pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
  + App Script - Crear sistema de registro con QR y Google Sheet (https://www.youtube.com/watch?v=9sDT41h7Fts)
  + automatizar trarea (https://www.youtube.com/watch?v=6E83c8wHQc8)
