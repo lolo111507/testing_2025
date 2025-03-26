@@ -97,4 +97,39 @@ Referencia: https://es.wikipedia.org/wiki/Hojas_de_c%C3%A1lculo_de_Google
   3. Crear en A1 una columna llamada **X** que tome valores de -10 a 10
   4. Crear en B1 una columna llamada **Y1** para almacenar los valores puntules de la función lineal `y = 3x -6` y graficar **x vs. y** , llamando a la gráfica _función lineal_
   5. Crear en C1 una columna llamada **Y2** para almacenar los valores puntules de la función cuadrática `y = x^2 - 4`  y graficar **x vs. y** , llamando a la gráfica _función cuadrática_
-  6. Crear en D1 una columna llamada **Y3** para almacenar los valores puntules de la función cúbica `y = x^3 - X^2 -3X + 1`  y graficar **x vs. y** , llamando a la gráfica _función cúbica_ 
+  6. Crear en D1 una columna llamada **Y3** para almacenar los valores puntules de la función cúbica `y = x^3 - X^2 -3X + 1`  y graficar **x vs. y** , llamando a la gráfica _función cúbica_
+
+
+**Extras:**
+
+Sheets: 
+	
+ + gráficas en google sheet e insertar en google docs (https://www.youtube.com/watch?v=-V7FPvYImfQ)
+ + tablas con formato: https://www.youtube.com/watch?v=JWIoTXMVnc8
+ + chips inteligente (https://www.youtube.com/watch?v=zWc6t_LERD4)
+		- lugar
+		- archivo
+		- contacto
+		- finance
+		- calendary
+		- valoración
+ + formulas unique, query, etc (https://www.youtube.com/watch?v=IeoxRheRoGg)
+ + formato de Unidades y números (https://www.youtube.com/watch?v=vbtsa2ocwTU)
+	
+#### Python <--> Google Sheet	(https://www.youtube.com/watch?v=jeZWv5PQJAk)
+
+https://tesel.mx/como-usar-python-para-leer-y-escribir-datos-a-una-hoja-de-calculo-de-google-sheets-8879/
+
+Comandos:    python -m venv venv
+            .\venv\Scripts\activate
+            pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+ + App Script - Crear sistema de registro con QR y Google Sheet (https://www.youtube.com/watch?v=9sDT41h7Fts)
+ + automatizar trarea (https://www.youtube.com/watch?v=6E83c8wHQc8)
+ + App sheets - Crea apps google sheets (https://www.youtube.com/watch?v=wR8zYE4V1Xk)
+
+
+Proxima Clase: 
+  Markdown
+  Colab
+
