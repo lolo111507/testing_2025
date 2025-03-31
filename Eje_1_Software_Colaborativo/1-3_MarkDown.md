@@ -31,14 +31,14 @@ Video link: [¿Por qué debes aprender MARKDOWN? MoureDev by Brias Moure](https:
     * Enlace: (https://4geeks.com/es/lesson/httpsgithubcombreatheco-deapplied-ai-syllabusblobmaincontentmodule-5-documentsfrom-markdown-to-everythingesmd)
   
 * Ejercicio: 
-  1. Pedirle alguna de las IA Generativas de tu agrado ( ChatGPT, Copilot, DeepSeek, Gemini, etc) que escriba un informe en MarkDown incluyendo tablas enlaces y si es posible y imagenes sobre algun tema sobre el cual no tengas mucha idea. 
+  1. Pedirle a alguna de las IA generativas de tu agrado ( ChatGPT, Copilot, DeepSeek, Gemini, etc) que escriba un informe incluyendo tablas, enlaces y si es posible imagenes, sobre algun tema sobre el cual no tengas mucha idea. 
         * Ej: 
           * Motor de 2 tiempos: historia, funcionamiento y actualidad.
           * Frutales: poda, cuidados y explotación intensiva.
           * Deportes extremos: adrenalina, riesgo y superación. 
           * El arte de la quesería artesanal: tradiciones, técnicas y variedades regionales
           * Pato, Deporte para pocos: Historia, reglas, actualidad
-  2. Usar https://dillinger.io/ para crear una documento **PDF** sobre el tema seleccionado.
+  2. Copiar la respeueda de la IA en formato MarkDown y usar https://dillinger.io/ para crear una documento **PDF** sobre el tema seleccionado.
   3. Subir el documentos a la carpeta del Drive: proa2025/testing/
   4. Compartir el link del archivo generado a la dirección: *jcsodo@escuelasproa.edu.ar*
    
