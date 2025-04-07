@@ -26,7 +26,7 @@ Video link: [¿Por qué debes aprender MARKDOWN? MoureDev by Brias Moure](https:
     * Este curso gratuito te enseña Markdown desde los conceptos básicos hasta temas más avanzados.
     * Enlace: [Curso: Markdown desde cero (Gratis) - EDteam](https://ed.team/cursos/markdown)
   
-    ![MarkDown <--> HTML5](..\img\3f4ce142-f8f4-4d41-923c-64ce9fbabf59.png)
+    ![MarkDown <--> HTML5](../img/3f4ce142-f8f4-4d41-923c-64ce9fbabf59.png)
 
 * **Notas 4Geeks.com sobre el uso de MarkDown y las IA:**
     * En un mundo donde la eficiencia y la creatividad son esenciales, combinar inteligencia artificial y Markdown podría ser el truco definitivo para crear documentos profesionales y versátiles en poco tiempo.
