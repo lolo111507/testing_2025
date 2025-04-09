@@ -76,15 +76,12 @@ print (2+2)
         * En la ventana que aparece, escribe la dirección de correo electrónico "jcsodo@escuelasproa.edu.ar".
         * Asegúrate de que el permiso esté configurado como "Editor".
         * Haz clic en "Enviar".
-    
-**adicionales**:
-
-**Colaboración en tiempo real**:
-    * Mutuamente compartir el cuaderno con un compañero e ingresar simultaneamente.
+    6. **Colaboración en tiempo real**:
+        * Mutuamente compartir el cuaderno con un compañero e ingresar simultaneamente.
         * Agregar al inicio una cela de texto con sus nombres en cursiva y escribir comentarios sobre el código del otro.
         * Modificar el código juntos, por ejemplo, cambiando los colores del triángulo o agregando etiquetas a los ejes.
-            * Agregar un título a la gráfica usando la función `plt.title()`.
-            * Agregar etiquetas a los ejes usando las funciones `plt.xlabel()` y `plt.ylabel()`.
+        * Agregar un título a la gráfica usando la función `plt.title()`.
+        * Agregar etiquetas a los ejes usando las funciones `plt.xlabel()` y `plt.ylabel()`.
 
 
 <!-- 
