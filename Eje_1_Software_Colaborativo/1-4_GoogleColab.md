@@ -46,8 +46,6 @@ print (2+2)
     * Compartir el cuaderno a: jcsodo@escuelasproa.edu.ar
 
 
-¡Claro que sí! Aquí tienes un ejercicio que guía a los alumnos paso a paso para calcular y graficar el área de un triángulo en Colab, proporcionándoles pistas en lugar del código completo:
-
 **Ejercicio 2: Calculando y graficando!!**
 
 * **Objetivo**: Usar variables, obtener entrada del usuario, realizar cálculos sencillos, graficar los resultados y compartir el cuaderno.
