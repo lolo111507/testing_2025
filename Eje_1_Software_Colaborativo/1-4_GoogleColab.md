@@ -17,22 +17,22 @@
 * **Pasos**:
     1.  **Crear un nuevo cuaderno**:
         * Abre Google Colab en tu navegador.
-        * Haz clic en "Nuevo cuaderno".
+        * Hacer clic en "Nuevo cuaderno".
     2.  **Añadir un título**:
-        * En la parte superior del cuaderno, donde dice "UntitledX.ipynb", haz clic y escribe un título como "Mi primer cuaderno Colab - %TU NOMBRE%".
+        * En la parte superior del cuaderno, donde dice "UntitledX.ipynb", hacer clic y cambiar en nomnbre a "testing2025_cuandernoColab_1_%TU NOMBRE%.ipynb".
     3.  **Añadir una celda de texto**:
         * Haz clic en el botón "+ Texto" para crear una celda de texto.
-        * Escribe un mensaje de bienvenida, por ejemplo: "¡Hola! Este es mi primer cuaderno en Colab. ¡Estoy emocionado de aprender Python!".
+        * Escribir un mensaje de bienvenida, por ejemplo: "# ¡Hola! Este es mi primer cuaderno en Colab. ¡Testing 2025!".
         * Para que el texto aparezca de forma correcta, presiona el botón de play que aparece a la izquierda de la celda de texto.
     4.  **Añadir una celda de código**:
-        * Haz clic en el botón "+ Código" para crear una celda de código.
-        * Escribe el siguiente código para imprimir un mensaje:
+        * Hacer clic en el botón "+ Código" para crear una celda de código.
+        * Escribir el siguiente código para imprimir un mensaje:
 
 ```python
 print(" Testing PROA 2025!")
 ```
 
-* Haz clic en el botón de "play" a la izquierda de la celda de código para ejecutarlo. Deberías ver el mensaje impreso debajo de la celda.
+* Hacer clic en el botón de "play" a la izquierda de la celda de código para ejecutarlo. Deberías ver el mensaje impreso debajo de la celda.
     5.  **Un pequeño cálculo**:
         * en la siguiente celda de código, escribe esto.
 
@@ -40,9 +40,10 @@ print(" Testing PROA 2025!")
 print (2+2)
 ```
 
-* Vuelve a presionar el botón de play, y veras el resultado de la operación.
+* Vuelve a presionar el botón de play, y observar el resultado de la operación.
+
 * **Guardar el cuaderno**:
-    * Colab guarda automáticamente tu trabajo, pero puedes ir a "Archivo" > "Guardar" para asegurarte.
+    * Colab guarda automáticamente tu trabajo, pero pueden ir a "Archivo" > "Guardar" para asegurarse.
     * Compartir el cuaderno a: jcsodo@escuelasproa.edu.ar
 
 
@@ -70,19 +71,20 @@ print (2+2)
         * Usa la función `plt.fill()` para rellenar el triángulo con color.
         * Usa la función `plt.show()` para mostrar la gráfica.
     5.  **Compartir el cuaderno**:
-        * Haz clic en el botón "Compartir" en la esquina superior derecha.
-        * En la ventana que aparece, escribe la dirección de correo electrónico "[dirección de correo electrónico eliminada]".
+        * Renombrar el cuaderno a "testing2025_cuandernoColab_2_%TU NOMBRE%.ipynb".
+        * Hacer clic en el botón "Compartir" en la esquina superior derecha.
+        * En la ventana que aparece, escribe la dirección de correo electrónico "jcsodo@escuelasproa.edu.ar".
         * Asegúrate de que el permiso esté configurado como "Editor".
         * Haz clic en "Enviar".
-    6.  **Colaboración en tiempo real**:
-        * Pide a los alumnos que abran el cuaderno compartido entre dos compañeros.
-        * Pídeles que agreguen celdas de texto con sus nombres y que escriban comentarios sobre el código del otro.
-        * Anímalos a modificar el código juntos, por ejemplo, cambiando los colores del triángulo o agregando etiquetas a los ejes.
-
+    
 **adicionales**:
 
-* Agregar un título a la gráfica usando la función `plt.title()`.
-* Agregar etiquetas a los ejes usando las funciones `plt.xlabel()` y `plt.ylabel()`.
+**Colaboración en tiempo real**:
+    * Mutuamente compartir el cuaderno con un compañero e ingresar simultaneamente.
+        * Agregar al inicio una cela de texto con sus nombres en cursiva y escribir comentarios sobre el código del otro.
+        * Modificar el código juntos, por ejemplo, cambiando los colores del triángulo o agregando etiquetas a los ejes.
+            * Agregar un título a la gráfica usando la función `plt.title()`.
+            * Agregar etiquetas a los ejes usando las funciones `plt.xlabel()` y `plt.ylabel()`.
 
 
 <!-- 
