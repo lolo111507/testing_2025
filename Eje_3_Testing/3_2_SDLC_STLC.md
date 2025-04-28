@@ -24,23 +24,77 @@
 
 * **Diagramas del SDLC:** 
 
+<!--
 ![Flujo SDLC](../img/SDLC.png)
 
 ![SDLC Cicle](../img/images-sdlc.png)
-
+-->
 ![SDLC - By Departments ](../img/SDLC_sectores.png)
 
 #### **Actividad Práctica: "Ordenando las Etapas"**
 
 * **Consigna:** 
-    - Entregar a cada grupo tarjetas o tiras de papel con el nombre de cada etapa del SDLC (en inglés o español) desordenadas. 
-    - Agregar una breve descripción de una actividad que creenb que se lleva adelante en cada etapa
+    - Entregar a cada grupo tarjetas o tiras de papel con el nombre de cada etapa del SDLC desordenadas. 
+    - Agregar una breve descripción de una actividad que creen que se lleva adelante en cada etapa
     - Pedirles que las ordenen en la secuencia correcta y expliquen por qué eligieron ese orden.
 
 ##### **Puesta en común y discusión:**
 
 * Cada grupo presenta su orden del SDLC y justifica sus decisiones.
  - ¿Qué problemas creen que podrían surgir si se saltara alguna de estas etapas?
+
+
+## SDLC Agile vs Traditional
+![SDLC Waterfall vs Agile](../img/agile-vs-traditional.jpg)
+
+
+
+### SDLC Tradicional (Modelos en Cascada y Similares)
+
+En el SDLC tradicional, el modelo más representativo es el **modelo en cascada** (*Waterfall Model*). Imaginate una cascada de agua: el agua fluye en una dirección, de arriba hacia abajo, y no puede volver a una etapa anterior. 
+
+**Características Técnicas Clave:**
+
+* **Secuencial:** Las fases se completan una tras otra. No se avanza a la siguiente fase hasta que la anterior está formalmente terminada.
+* **Orientado a la documentación:** Se genera una gran cantidad de documentación en cada fase (especificaciones de requisitos, documentos de diseño, planes de prueba, etc.).
+* **Bajo nivel de interacción con el cliente durante el desarrollo:** El cliente suele participar intensamente al inicio (para definir los requisitos) y al final (para la aceptación), pero menos durante las fases intermedias.
+* **Dificultad para adaptarse a los cambios:** Los cambios en los requisitos una vez que el proyecto está en fases avanzadas pueden ser costosos y disruptivos, ya que a menudo implican volver a fases anteriores.
+* **Adecuado para proyectos con requisitos bien definidos y estables:** Funciona mejor cuando se sabe exactamente qué se va a construir y es poco probable que los requisitos cambien significativamente.
+
+### SDLC Ágil (Scrum, Kanban y otros Marcos)
+
+El SDLC ágil es un enfoque iterativo e incremental que busca entregar valor al cliente de forma temprana y continua, adaptándose a los cambios a lo largo del proyecto. Algunos de los marcos ágiles más conocidos son **Scrum** y **Kanban**.
+
+**Conceptos Técnicos Clave:**
+
+* **Iterativo e incremental:** El proyecto se divide en ciclos cortos de trabajo llamados **iteraciones** o **sprints** (en Scrum). Al final de cada iteración, se entrega un incremento de software funcional.
+* **Desarrollo centrado en el cliente:** La colaboración con el cliente es continua y activa durante todo el proyecto para asegurar que el software cumpla con sus necesidades.
+* **Equipos autoorganizados y multifuncionales:** Los equipos son pequeños, trabajan juntos y tienen las habilidades necesarias para completar las tareas sin depender de otros equipos.
+* **Énfasis en el software funcionando sobre la documentación exhaustiva:** Si bien la documentación es importante, se prioriza la entrega de software útil y funcional.
+* **Adaptación al cambio:** La capacidad de responder a los cambios en los requisitos es una característica fundamental. Se fomenta la flexibilidad y la adaptación continua.
+* **Entrega continua de valor:** Se busca entregar software funcional en cada iteración, lo que permite al cliente obtener valor de forma temprana y recibir feedback constante.
+* **Inspección y adaptación:** Se realizan reuniones periódicas (como las retrospectivas en Scrum) para analizar el proceso, identificar problemas y realizar mejoras continuas.
+
+**Ejemplo con Scrum:**
+
+1.  **Product Backlog:** Una lista priorizada de todas las funcionalidades, requisitos y mejoras que se desean en el software.
+2.  **Sprint Planning:** El equipo selecciona un conjunto de elementos del Product Backlog para trabajar en el próximo Sprint (una iteración de duración fija, por ejemplo, 2 semanas).
+3.  **Sprint Backlog:** La lista de tareas que el equipo se compromete a completar durante el Sprint.
+4.  **Daily Scrum:** Una reunión diaria corta (15 minutos) donde el equipo sincroniza el trabajo y planifica las siguientes 24 horas.
+5.  **Sprint Review:** Al final del Sprint, el equipo presenta el incremento de software funcional al cliente y a los stakeholders para recibir feedback.
+6.  **Sprint Retrospective:** El equipo reflexiona sobre el Sprint pasado para identificar qué funcionó bien, qué se puede mejorar y cómo implementar esas mejoras en el futuro.
+
+**En resumen:**
+
+| Característica         | SDLC Tradicional                  | SDLC Ágil                         |
+| :--------------------- | :-------------------------------- | :-------------------------------- |
+| **Enfoque** | Planificación exhaustiva inicial | Adaptación y colaboración continua |
+| **Entrega** | Al final del proyecto             | Iterativa e incremental           |
+| **Cambios** | Difícil de incorporar            | Bienvenida y fácil de adaptar     |
+| **Cliente** | Involucrado al inicio y al final  | Involucrado durante todo el ciclo |
+| **Documentación** | Extensa y detallada              | Se prioriza el software funcional |
+| **Riesgo** | Mayor al final del proyecto        | Se mitiga en cada iteración       |
+| **Adecuado para** | Requisitos estables y definidos   | Requisitos cambiantes e inciertos |
 
 <!--
 ** Cierre y anticipo:**
@@ -58,70 +112,70 @@
 
 **Objetivo Principal:** Conocer cuál es el ciclo de vida del testing de Software (STLC).
 
-**(0-10 minutos) Repaso y conexión:**
+**Repaso y conexión:**
 
 * Recordar que el testing es una etapa fundamental dentro del SDLC.
-* Preguntar: "¿Creen que los testers simplemente prueban el software al final? ¿Qué creen que hacen antes y después de ejecutar las pruebas?"
+* Preguntas: 
+    * ¿Creen que los testers simplemente prueban el software al final? 
+    * ¿Qué creen que hacen antes y después de ejecutar las pruebas?
 
-**(10-35 minutos) Explorando el STLC (Teoría):**
+**Explorando el STLC (Teoría):**
 
-* **Explicación:** Introducir el concepto de STLC como una serie de etapas específicas que siguen los testers para planificar, diseñar, ejecutar y reportar las pruebas de software.
-* **Etapas principales (explicar cada una brevemente con ejemplos relacionados con la aplicación de la clase anterior):**
+El STLC es una serie de etapas específicas que siguen los testers para planificar, diseñar, ejecutar y reportar las pruebas de software.
+
+* **Etapas principales:**
     * **Análisis de Requisitos (Requirements Analysis):** Entender qué se debe probar. Revisar los requisitos del software desde la perspectiva del testing. (Ejemplo: Leer las especificaciones de la funcionalidad de "añadir tarea" para entender qué se espera que haga).
     * **Planificación de Pruebas (Test Planning):** Definir la estrategia de pruebas, los recursos necesarios, el alcance de las pruebas y el cronograma. (Ejemplo: Decidir qué tipos de pruebas se harán (**functional testing**, **usability testing**, etc.) y cuántos testers se necesitarán).
     * **Diseño de Casos de Prueba (Test Case Design):** Crear los casos de prueba detallados que se ejecutarán para verificar la funcionalidad del software. (Ejemplo: Escribir los pasos para probar si se puede añadir una tarea con un título, una descripción y una fecha límite).
     * **Configuración del Entorno de Pruebas (Test Environment Setup):** Preparar el ambiente donde se ejecutará el software para las pruebas (**hardware**, **software**, **test data**). (Ejemplo: Asegurarse de tener instalada la aplicación en diferentes tipos de celulares o simuladores).
     * **Ejecución de Pruebas (Test Execution):** Llevar a cabo los casos de prueba diseñados y registrar los resultados (si la prueba pasó o falló). (Ejemplo: Seguir los pasos del caso de prueba para "añadir tarea" y anotar si funcionó correctamente).
     * **Informe de Defectos (Defect Reporting):** Documentar detalladamente cualquier error o problema encontrado durante la ejecución de las pruebas. (Ejemplo: Si al intentar añadir una tarea con una fecha límite incorrecta la aplicación se cierra, registrar este error con todos los detalles necesarios para que los desarrolladores puedan corregirlo).
-    * **Cierre del Ciclo de Pruebas (Test Cycle Closure):** Evaluar si se han cumplido los objetivos de las pruebas, analizar los resultados y documentar las lecciones aprendidas. (Ejemplo: Una vez que se han corregido los errores críticos y se han vuelto a probar, decidir si las pruebas para esta versión de la aplicación están completas).
-* **Diagrama del STLC:** (Mostrar un diagrama visual con las etapas conectadas en un flujo, idealmente un ciclo que se relaciona con el SDLC).
+    * **Cierre del Ciclo de Pruebas (Test Cycle Closure):** Evaluar si se han cumplido los objetivos de las pruebas, analizar los resultados y documentalos. (Ejemplo: Una vez que se han corregido los errores críticos y se han vuelto a probar, decidir si las pruebas para esta versión de la aplicación están completas).
+  
 
-**(35-55 minutos) Actividad Práctica: "Creando Casos de Prueba Simples"**
+* **Diagrama del STLC:** 
+* 
+
+_funte:_ 
+ * _https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/_
+ * _https://www.geeksforgeeks.org/software-testing-tutorial/_
+
+
+___
+**Actividad Práctica: "Creando Casos de Prueba Simples"**
 
 * **Consigna:** Volver a los grupos. Elegir una funcionalidad sencilla de la aplicación de organización de tareas (por ejemplo, "añadir una nueva tarea"). Pedirles que diseñen al menos 3 casos de prueba diferentes para verificar que esta funcionalidad funciona correctamente. Deben especificar:
     * **Título del caso de prueba (Test Case Title).**
     * **Pasos a seguir (Test Steps).**
     * **Resultado esperado (Expected Result).**
 
-**(55-75 minutos) Puesta en común y discusión:**
+**Puesta en común y discusión:**
 
 * Cada grupo presenta sus casos de prueba para la funcionalidad elegida.
 * Analizar los diferentes casos de prueba propuestos. Preguntar: "¿Qué aspectos diferentes están probando en cada caso? ¿Por qué es importante tener varios casos de prueba para una misma funcionalidad?" Introducir brevemente la idea de diferentes tipos de pruebas (positivas, negativas, de borde).
 
-**(75-80 minutos) Cierre y conexión final:**
+______
 
-* Recalcar que el STLC es una parte esencial para garantizar la calidad del software dentro del SDLC.
-* Conectar con el objetivo final de la próxima clase: entender el rol fundamental del tester QA en una empresa de desarrollo de software.
-
-**Enlaces de interés:**
-
-* **Diagramas del STLC:** Buscar en Google Imágenes "diagrama ciclo de vida del testing de software".
-* **Explicaciones sencillas del STLC:** Buscar videos o artículos introductorios al STLC para principiantes.
-
-## Clase 5: El Rol Crucial del Tester QA
+### El Rol Crucial del Tester QA
 
 **Objetivo Principal:** Visualizar que el puesto de tester QA es un rol importante dentro de una empresa de desarrollo de software.
 
-**(0-10 minutos) Repaso y reflexión:**
+**Pregunta:**
+    Después de haber visto el SDLC y el STLC, ¿por qué creen que es importante tener testers en una empresa de software? ¿Qué pasaría si no los hubiera?
 
-* Recordar el SDLC y el STLC vistos en las clases anteriores.
-* Preguntar: "Después de todo lo que vimos, ¿por qué creen que es importante tener testers en una empresa de software? ¿Qué pasaría si no los hubiera?"
+**La Importancia del Tester QA (Teoría y ejemplos):**
 
-**(10-35 minutos) La Importancia del Tester QA (Teoría y ejemplos):**
+* **El Tester como Defensor de la Calidad:** el tester es responsable de asegurar que el software funcione correctamente, sea confiable y cumpla con las expectativas de los usuarios.
 
-* **El Tester como Defensor de la Calidad:** Explicar que el tester es responsable de asegurar que el software funcione correctamente, sea confiable y cumpla con las expectativas de los usuarios.
-* **Beneficios de tener Testers:**
+* **Beneficios del Testing:**
     * **Detección temprana de errores (Early bug detection):** Encontrar problemas antes de que lleguen a los usuarios, lo que ahorra tiempo y dinero a la empresa.
     * **Mejora de la calidad del software (Improved software quality):** Asegurar que el software sea más robusto y tenga menos fallos.
     * **Mejora de la experiencia del usuario (Enhanced user experience):** Garantizar que el software sea fácil de usar y cumpla con las necesidades de los usuarios.
     * **Reducción de riesgos (Risk reduction):** Evitar problemas graves que puedan dañar la reputación de la empresa.
     * **Aumento de la satisfacción del cliente (Increased customer satisfaction):** Entregar un producto de calidad genera confianza y lealtad en los clientes.
-* **El Rol del Tester QA en el Equipo:** Destacar que el tester trabaja en colaboración con desarrolladores, diseñadores y project managers. Su perspectiva es crucial para asegurar que el producto final sea exitoso.
 
-**(35-55 minutos) Actividad Práctica: "El Abogado del Usuario"**
+* **El Rol del Tester QA en el Equipo:** el tester trabaja en colaboración con desarrolladores, diseñadores y project managers. Su perspectiva es crucial para asegurar que el producto final sea exitoso.
 
-* **Consigna:** Dividir a los estudiantes en grupos. Asignar a un estudiante de cada grupo el rol de "Tester QA". El resto del grupo serán "Desarrolladores" y "Diseñadores" de una nueva funcionalidad para la aplicación de tareas (por ejemplo, la posibilidad de compartir listas de tareas con otros usuarios).
-    * Los "Desarrolladores" y "Diseñadores" deben explicar brevemente cómo imaginan esta nueva funcionalidad.
-    * El "Tester QA" debe hacer preguntas críticas desde la perspectiva del usuario
+___
 
-
+[Mentimeter!](https://www.menti.com/alzkbpreaeuo)
