@@ -24,13 +24,13 @@
 
 * **Diagramas del SDLC:** 
 
-<!--
 ![Flujo SDLC](../img/SDLC.png)
-
+<!--
 ![SDLC Cicle](../img/images-sdlc.png)
 -->
 ![SDLC - By Departments ](../img/SDLC_sectores.png)
-![Video - SDLC(Ingles)](https://www.youtube.com/watch?v=Fi3_BjVzpqk)
+
+[Video - SDLC(Ingles)](https://www.youtube.com/watch?v=Fi3_BjVzpqk)
 
 
 #### **Actividad Práctica: "Ordenando las Etapas"**
