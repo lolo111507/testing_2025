@@ -136,7 +136,8 @@ El STLC es una serie de etapas específicas que siguen los testers para planific
   
 
 * **Diagrama del STLC:** 
-* 
+
+![STLC](../img/software-testing-life-cycle-1024x566.png)
 
 _funte:_ 
  * _https://www.geeksforgeeks.org/software-testing-life-cycle-stlc/_
@@ -181,4 +182,3 @@ ______
 ___
 
 [Mentimeter!](https://www.menti.com/alzkbpreaeuo)
-[bug hunt](https://www.letsstartcoding.com/learn-bug-hunt-one)
