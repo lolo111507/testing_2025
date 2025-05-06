@@ -16,35 +16,22 @@ Es importante entender cómo se transportan los mensajes por Internet para compr
 
 ___
 
-**Ficha:**
-# Un mundo interconectado... ¿cómo?
-
-Seguro alguna vez escuchamos sobre Internet o la usamos para algo. Pero... ¿Qué pasa cuando mandamos información por la red? ¿Viaja directamente de un celular a otro? ¿Y si los ponemos más cerca llega más rápido?¿Mis fotos y videos dan la vuelta al mundo?
-
-**Parte 1:**
-Armar grupos de 4 integrantes y entre todos piensen y escriban una posible respuesta a cada pregunta:
-
-● ¿Qué es Internet? ¿Cómo la definirían con sus palabras?
-● ¿Cómo viaja la información en Internet? Cuando se envía un mensaje desde una computadora a otra ¿qué medios se utilizan? Por ejemplo, cuando se escribía una carta el medio era el papel y podía enviarse de mano en mano, con un intermediario o por correo ¿Y en Internet?
-
-**Parte 2:**
-Luego de ver el video, revisá las respuestas que dieron a las preguntas anteriores. ¿Creés que podrías completarlas o que deberías modificar algo? Anotá los cambios que le harías a las respuestas, y comparalas con las de tu grupo para escribir entre todos una respuesta más completa para entregarle a su docente.
-
-
-___ 
-### DESARROLLO
 ### Actividad 1 
 
 ## Un mundo interconectado... ¿cómo?
 
 **Objetivo** 
+
 * Reconocer a Internet como una red mundial de computadoras.
 * Identificar la existencia de cables submarinos transoceánicos y su rol dentro de la infraestructura física para garantizar el funcionamiento de Internet.
 
-Modalidad de trabajo: En grupos de 3 personas, y la clase completa para el intercambio final.
-Materiales: Pizarrón, proyector y parlantes.
+Preguntas Disparadoras: 
 
-Al terminar la lectura de las respuestas de los grupos vamos a proyectar un video, “El Mapa Digital - Un millón de kilómetros de cable para conectar al mundo”, 
+    - Que es Internet? 
+    - Quien la Regúla? 
+    - Tiene Dueño?. 
+ 
+Al terminar la lectura de las respuestas proyectar el video, “El Mapa Digital - Un millón de kilómetros de cable para conectar al mundo”, 
 
 https://www.youtube.com/watch?v=cQVuJte-1dQ
 
@@ -55,10 +42,6 @@ https://www.submarinecablemap.com/
 Figura 1. Mapa de la red de cables submarinos que conecta las diferentes regiones del mudo y da soporte físico a Internet.
 
 Finalizada la proyección del video y los intercambios en torno a las preguntas de la ficha, pediremos a las estudiantes que revisen y amplíen, de manera individual, las respuestas que escribieron al comienzo de la actividad.
-
-**Cierre**
-Para cerrar la actividad, haremos una última puesta en común para repasar los conceptos claves de la actividad y conversar sobre los cambios en las respuestas antes y después de ver el video y escuchar las reflexiones de los grupos. De esta manera se podrá poner en evidencia que pese a la familiaridad con el uso de Internet no se posee un conocimiento profundo respecto a su funcionamiento y la infraestructura física que lo permite.
-
 
 _______
 ### Material complementario

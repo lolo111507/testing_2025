@@ -21,12 +21,12 @@
 
 ___
 
-**LAN:** son las siglas de Local area network (red de área local). Las LAN conectan dispositivos en una proximidad geográfica cercana (en el mismo edificio).
+**LAN:** son las siglas de *Local area network* (red de área local). Las LAN conectan dispositivos en una proximidad geográfica cercana (en el mismo edificio).
 
-**WAN:** son las siglas de Wide area network (red de área extendida). Las WAN conectan dispositivos en ubicaciones geográficamente dispersas (en todo el mundo).
+**WAN:** son las siglas de *Wide area network* (red de área extendida). Las WAN conectan dispositivos en ubicaciones geográficamente dispersas (en todo el mundo).
 ___
 
-**MAC:**  la dirección MAC (siglas en inglés de Media Access Control) es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como dirección física, y es única para cada dispositivo.
+**MAC:**  la dirección MAC (siglas en inglés de *Media Access Control*) es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como dirección física, y es única para cada dispositivo.
 
 ![image](../img/mac.png)
 
@@ -62,11 +62,11 @@ topologías: https://youtu.be/Y2L_7ewQteI
     - dirección ip 
     - dominos  -> dns
     - 
----
+__________
 ### [Instalación de WireShark](https://www.wireshark.org/)
 
     ping 8.8.8.8
     ping elclubdelamilanesa.com
-
+___________
 
 
