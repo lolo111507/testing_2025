@@ -1,4 +1,58 @@
-**Tutorial Paso a Paso sobre Redes y Sockets en Python para Dos Máquinas (Windows)**
+## **¿Qué son los Sockets?**
+
+* Los sockets son puntos finales de una comunicación bidireccional entre dos programas que se ejecutan en la red.
+* En Python, el módulo `socket` proporciona las herramientas necesarias para trabajar con sockets.
+
+#### **Tipos de Sockets**
+
+* **Sockets TCP (SOCK\_STREAM):** Proporcionan un flujo de datos confiable y ordenado. Se utilizan para protocolos como HTTP, FTP y SMTP.
+* **Sockets UDP (SOCK\_DGRAM):** Envían datagramas (mensajes) individuales. No garantizan la entrega ni el orden. Se utilizan para protocolos como DNS y DHCP.
+
+#### **Creación de un Socket TCP**
+
+```python
+import socket
+
+# Crear un socket TCP/IP
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+```
+
+* `socket.AF_INET`: Indica que estamos utilizando direcciones IPv4.
+* `socket.SOCK_STREAM`: Especifica que queremos un socket TCP.
+
+#### **Conexión a un Servidor**
+
+```python
+# Conectar el socket al puerto donde el servidor está escuchando
+server_address = ('localhost', 10000)
+sock.connect(server_address)
+```
+
+* `server_address`: Es una tupla que contiene la dirección IP y el puerto del servidor.
+* `sock.connect()`: Establece una conexión con el servidor.
+
+#### **Envío y Recepción de Datos**
+
+```python
+try:
+    # Enviar datos
+    message = b'Este es el mensaje.  Se repetirá.'
+    sock.sendall(message)
+
+    # Recibir respuesta
+    data = sock.recv(16)
+    print(f'Recibido: {data.decode()}')
+
+finally:
+    sock.close()
+```
+
+* `sock.sendall()`: Envía todos los datos al socket.
+* `sock.recv()`: Recibe datos del socket. El argumento indica el tamaño máximo de los datos a recibir.
+* `sock.close()`: Cierra la conexión.
+___ 
+
+## **Tutorial Paso a Paso sobre Redes y Sockets en Python para Dos Máquinas (Windows)**
 
 Este tutorial te guiará para configurar un servidor y un cliente en dos máquinas Windows diferentes, utilizando sockets TCP en Python.
 
@@ -7,7 +61,7 @@ Este tutorial te guiará para configurar un servidor y un cliente en dos máquin
   * Dos computadoras con Windows conectadas a la misma red local (por ejemplo, la misma red Wi-Fi o Ethernet).
   * Python instalado en ambas máquinas.
 
-**Pasos:**
+### **ACTIVIDAD:**
 
 **1. Obtener la Dirección IP de la Máquina Servidora:**
 
@@ -117,15 +171,6 @@ finally:
       * Ejecuta el cliente con el comando: `python client.py`
       * Deberías ver mensajes indicando que el cliente se está conectando al servidor y luego la respuesta del servidor.
 
-**Explicación de los Cambios:**
-
-  * **Obtención de la IP del Servidor:** Ahora se enfatiza la necesidad de obtener la dirección IP de la máquina donde correrá el servidor.
-  * **Enlace del Servidor:** En el código del servidor, se utiliza `socket.gethostname()` y `socket.gethostbyname()` para intentar obtener la dirección IP local de la máquina. Esto asegura que el servidor escuche en la interfaz de red correcta. También se introduce una variable `PORT` para facilitar el cambio del puerto.
-  * **Conexión del Cliente:** En el código del cliente, la variable `SERVER_IP` debe ser **reemplazada** con la dirección IP real de la máquina servidora.
-  * **Mensajes:** Se han añadido mensajes más descriptivos para que cada uno sepa qué está haciendo su programa.
-  * **Tamaño de Recepción:** Se especifica un tamaño máximo de recepción (`1024` bytes) para evitar problemas con mensajes largos.
-  * **Cierre de Sockets:** Se asegura que ambos sockets (cliente y servidor) se cierren correctamente en los bloques `finally`.
-
 **Consideraciones Importantes:**
 
   * **Firewall de Windows:** Es posible que el Firewall de Windows en la máquina servidora bloquee las conexiones entrantes al puerto que elegiste (en este caso, el 12345). Si el cliente no puede conectarse, deberás crear una **regla de entrada** en el Firewall de Windows para permitir las conexiones TCP al puerto 12345.
@@ -136,3 +181,14 @@ finally:
 **verificación de escucha**
 
     netstat -an | findstr "LISTENING"
+
+**Usar Wireshark en ambas PC para analizar el tráfico**
+
+host "ip_server" and tcp port 12345
+
+
+___
+**Próximos Pasos**
+ - Explorar el manejo de errores y excepciones.
+ - Aprender sobre sockets UDP.
+ - Investigar sobre la creación de servidores multi-hilo para manejar múltiples clientes simultáneamente.
