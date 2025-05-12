@@ -24,7 +24,12 @@ https://youtu.be/tYWXVHMlpCg
 
 ![image](../img/OSI-TCP_IP.png)
 
-###### Prática para hacer en clase: 
+###### Prática para hacer en clase:
+
+[SOCKETS](./2-z1_tuto.sockets.md)
+
+fuente original: 
+https://blog.smaldone.com.ar/2006/11/06/programacion-para-redes-y-concurrencia-i/
 https://blog.smaldone.com.ar/2006/11/21/tutorial-sobre-tcpip/
 
 #### Palabras claves: 
