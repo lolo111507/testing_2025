@@ -3,7 +3,7 @@
 
 **Grupos propuestos:**  
   1. Proyecto 1: Servidor Web y Aplicación
-  2. Proyecto 2: Monitoreo Ambiental
+  2. Proyecto 2: Servidor de Mensajeria interna
   3. Proyecto 3: Servidor de Juegos y Análisis
   4. Proyecto 4: Servidor de backup
 
