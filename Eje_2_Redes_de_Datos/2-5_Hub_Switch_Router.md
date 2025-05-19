@@ -37,9 +37,9 @@ ____
 **Router**: también conocido como enrutador o encaminador — es un dispositivo que proporciona conectividad a nivel de red o nivel tres en el modelo OSI. Su función principal consiste en enviar o encaminar datos de una red a otra de acuerdo a la dirección IP destino del los paquetes IP, es decir, **interconecta subredes**.
 
 
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/71f4249e-d3b7-4774-bdd9-eea8104bfd3b)
+![image](../img/osi.png)
 
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/f42825c5-4971-4194-ac67-9f1920af0298)
+![image](../img/net.png)
 
 
 ____
@@ -57,7 +57,7 @@ _____
 ### Hub - Switch - Router 
 https://www.youtube.com/watch?v=Gky8-OVYmT4
 
-![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/69285646-7b54-4644-ab2a-93b85211c20c)
+![image](../img/frame.png)
 
 
 ___
@@ -81,7 +81,7 @@ Evolucionó en paralelo a las propias redes En este modelo existe una clara sepa
   * Los clientes solicitan servicios
   * Los servidores atienden estas solicitudes red
 
-    ![image](https://github.com/lole-s/Testing-QA-CUAC/assets/84929029/5228863d-9183-4b13-9b9a-de17b8c52776)
+    ![image](../img/client-server.png)
 
 ##### MODELO P2P 
 El modelo par-a-par se diferencia del modelo anterior en que no distingue entre clientes y servidores
