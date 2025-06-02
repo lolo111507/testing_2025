@@ -178,3 +178,17 @@ Imagina tu LAN como una pequeña ciudad cerrada. Dentro de esta ciudad, tus disp
 
 El router actúa como un intermediario esencial que permite que los dispositivos en tu red privada (LAN) se comuniquen con redes públicas como Internet. Realiza funciones cruciales como la traducción de direcciones (NAT) y el enrutamiento para asegurar que los datos lleguen a su destino correcto, tanto dentro como fuera de tu red local. Sin un router, tus dispositivos en la LAN estarían aislados y no podrían acceder a recursos en otras redes.
 ____
+
+links de interes: 
+
++ Diferencia entre el hub el switch y el router
+  https://www.youtube.com/watch?v=liudX0oskwM
+  https://www.youtube.com/watch?v=Gky8-OVYmT4
+
++ NAT
+  https://www.youtube.com/watch?v=e0W0u-s-q6k
+
+  https://www.youtube.com/watch?v=FTUV0t6JaDA
+
++ Tracert 
+  https://www.youtube.com/watch?v=3-0FXd9z8ws 
