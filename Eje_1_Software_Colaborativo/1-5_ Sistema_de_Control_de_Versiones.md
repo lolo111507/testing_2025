@@ -12,3 +12,6 @@ Con un VCS, puede:
 * Crear ramas, donde los cambios se pueden hacer experimentalmente. Esta característica permite que se trabaje en varios conjuntos de cambios diferentes (por ejemplo, características o correcciones de errores) al mismo tiempo, posiblemente personas distintas, sin que ello afecte a la rama principal. Más adelante se pueden combinar los cambios que se quieren mantener en la rama principal.
 * Adjuntar una etiqueta a una versión, por ejemplo, para marcar una nueva versión.
 
+
+### [¿Qué es el control de versiones y porque es tan importante para programar?](https://www.youtube.com/watch?v=8HSjmgeJxqg)
+

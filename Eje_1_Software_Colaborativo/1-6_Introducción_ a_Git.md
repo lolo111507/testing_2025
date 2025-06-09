@@ -346,6 +346,11 @@ _____
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
 * Curso freeCodeCamp.org: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/
 * Repositorio con resumen simpificado:  https://github.com/royeden/instructivo-git
+
+Links EdTeam
+* GIT: https://www.youtube.com/watch?v=jGehuhFhtnE
+* GIT en VSC: https://www.youtube.com/watch?v=AYbgqmyg7dk
+  
 ____
 #### resumen: 
 
