@@ -56,14 +56,10 @@ GIT BASH es una herramienta de línea de comandos para Windows que nos permite e
 Una vez que el proceso haya terminado correctamente, compruebe la instalación ejecutando git de prueba con:
 
 > git --version
-
-> git -v
-
+>
 > git --help 
 
-> git -h
-
-  #### Comandos básico desde la terminal:
+#### Comandos básico desde la terminal:
 
 listar directorio actual
 > ls -lha
@@ -85,29 +81,43 @@ Crear archivo
 
 ### 5 - Configuración de Git
 
-Asociamos por única vez nuestro usuario y email
+Git tiene tres niveles de configuración:
 
---Configuracion global:
+1. **Sistema (global a todos los usuarios del sistema)**
+   → `git config --system`
+    Se guarda en el archivo `/etc/gitconfig`.
 
-> git config user.name "lole-s"  
+2. **Global (usuario actual)**
+   → `git config --global`
+   ✅ Se guarda en `~/.gitconfig`.
+   ✅ Usualmente lo que querés usar para cosas como tu nombre o email.
 
-> git config user.email "jcsodo@gmail.com"
+3. **Local (solo para un repositorio)**
+   → `git config --local` o simplemente `git config` dentro de una carpeta con `.git/`.
 
-* ver archivo de configuración C:/Users/operador4/.gitconf o verificar config con el sig. comando
+---
+Seteo de configuración global. Asociamos por única vez nuestro usuario y email:
 
-> git config --list
+> git config --global user.name "lole-s"
+> git config --global user.email "lole-s@colegio.com"  
+> git config --global --list
+
+* ver archivo de configuración C:/Users/pc05/.gitconf o verificar config con el sig. comando:
+  
+> git config --global --list
 
 ### 6 - Iniciar control de versiones para el directorio de nuestro proyecto. "git init"
 
 Crear una carpeta de proyecto nuevo
-
+Ir a la  carpeta ´temp2025
+> cd c:\temp2025
 > mkdir miProyecto
-
-> cd miProyecto
-
+> cd miProyecto**
+ 
+Comprobar que el directorio esta vacio: 
 > ls -alh
 
---inicializar el contexto de un control de versiones en el directorio raiz del proyecto
+**Inicializar el contexto de un control de versiones en el directorio raíz del proyecto**
 
 > git init
 
@@ -216,6 +226,7 @@ Donde ahora vemos el archivo como agregado para seguimiento de cambios. Pero sin
 >
 > git status
 
+<!--
 #### Git log
 
 --git añade un hash al commit para identificar el momento de la foto
@@ -340,7 +351,7 @@ no esta mas el "git.txt" como untracked, indica que el .gitignore ya esta efecta
 --y copio el hash de la foto main
 
 #### Git reset 
-
+-->
 _____
 * Apunte de Majo: https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW/view
 * Curso Mouredev: https://www.youtube.com/watch?v=3GymExBkKjE&t=196s
@@ -351,7 +362,8 @@ Links EdTeam
 * GIT: https://www.youtube.com/watch?v=jGehuhFhtnE
 * GIT en VSC: https://www.youtube.com/watch?v=AYbgqmyg7dk
   
-____
+___
+<!--
 #### resumen: 
 
 Git: es un software de control de versiones distribuido y nos permite administrar los cambios en el código.
@@ -390,8 +402,6 @@ git tag: crea, muestra y elimina etiquetas.
 
 .gitignore: es un archivo que permite ignorar archivos o carpetas dentro del directorio del proyecto.
 
-
-
 GitHub Pages: es una forma de mostrar un repositorio como un sitio web.
 
 git clone: clona o copia un repositorio remoto.
@@ -411,3 +421,4 @@ Release: es la versión de un proyecto lista para su distribución.
 Badges: (insignias) agregan información relevante acerca de un repositorio.
 
 ____
+-->

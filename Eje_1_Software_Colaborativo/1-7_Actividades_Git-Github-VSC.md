@@ -1,6 +1,6 @@
-### Actividad 1 - Crear repo Nuevo
+## Actividad 1 - Crear repo nuevo, crear una nueva rama y ver logs
 
-## 🧠 Objetivo del ejercicio
+### Objetivo del ejercicio
 
 Aprender a:
 
@@ -15,7 +15,7 @@ Aprender a:
 
 ---
 
-## 🧰 Requisitos previos
+### 🧰 Requisitos previos
 
 * Git instalado.
 * Terminal o consola lista (Git Bash en Windows, Terminal en Linux/macOS).
@@ -23,18 +23,18 @@ Aprender a:
 
 ---
 
-## 📘 PASOS DEL EJERCICIO
+### 📘 PASOS DEL EJERCICIO
 
-### 1. Crear una carpeta para el proyecto
+#### 1. Crear una carpeta para el proyecto
 
 ```bash
-mkdir mi-primer-repo
-cd mi-primer-repo
+mkdir repo-nuevo
+cd repo-nuevo
 ```
 
 ---
 
-### 2. Inicializar un repositorio Git
+#### 2. Inicializar un repositorio Git
 
 ```bash
 git init
@@ -44,17 +44,17 @@ git init
 
 ---
 
-### 3. Crear un archivo README
+#### 3. Crear un archivo README
 
 ```bash
 echo "# Mi Primer Proyecto Git" > README.md
 ```
 
-👉 Este comando crea el archivo `README.md` con un título adentro.
+Este comando crea el archivo `README.md` con un título adentro.
 
 ---
 
-### 4. Ver el estado del repositorio
+#### 4. Ver el estado del repositorio
 
 ```bash
 git status
@@ -64,7 +64,7 @@ git status
 
 ---
 
-### 5. Agregar el archivo al área de staging
+#### 5. Agregar el archivo al área de staging
 
 ```bash
 git add README.md
@@ -72,7 +72,7 @@ git add README.md
 
 ---
 
-### 6. Hacer un commit
+#### 6. Hacer un commit
 
 ```bash
 git commit -m "Agrego archivo README"
@@ -82,7 +82,7 @@ git commit -m "Agrego archivo README"
 
 ---
 
-### 7. Crear un archivo de código simple (ej: en Python)
+#### 7. Crear un archivo de código simple (ej: en Python)
 
 ```bash
 echo "print('Hola mundo')" > hola.py
@@ -92,7 +92,7 @@ echo "print('Hola mundo')" > hola.py
 
 ---
 
-### 8. Agregar y commitear el código
+#### 8. Agregar y commitear el código
 
 ```bash
 git add hola.py
@@ -101,7 +101,7 @@ git commit -m "Agrego script hola.py"
 
 ---
 
-### 9. Ver historial de commits
+#### 9. Ver historial de commits
 
 ```bash
 git log
@@ -111,7 +111,7 @@ git log
 
 ---
 
-### 10. Crear una nueva rama (branch)
+#### 10. Crear una nueva rama (branch)
 
 ```bash
 git branch nueva-idea
@@ -119,7 +119,7 @@ git branch nueva-idea
 
 ---
 
-### 11. Cambiarte a esa nueva rama
+#### 11. Cambiarte a esa nueva rama
 
 ```bash
 git checkout nueva-idea
@@ -127,7 +127,7 @@ git checkout nueva-idea
 
 ---
 
-### 12. Hacer un cambio en esa rama
+#### 12. Hacer un cambio en esa rama
 
 ```bash
 echo "print('Estoy en una nueva rama')" >> hola.py
@@ -137,7 +137,7 @@ git commit -m "Modifico hola.py en nueva rama"
 
 ---
 
-### 13. Ver las ramas existentes
+#### 13. Ver las ramas existentes
 
 ```bash
 git branch
@@ -147,7 +147,7 @@ git branch
 
 ---
 
-### 14. Volver a la rama principal (`main` o `master`)
+#### 14. Volver a la rama principal (`main` o `master`)
 
 ```bash
 git checkout main
@@ -157,7 +157,7 @@ git checkout main
 
 ---
 
-### 15. Ver diferencia entre ramas (opcional)
+#### 15. Ver diferencia entre ramas (opcional)
 
 ```bash
 git diff nueva-idea
@@ -167,7 +167,7 @@ git diff nueva-idea
 
 ---
 
-## ✅ BONUS: Combinar ramas
+### ✅ BONUS: Combinar ramas
 
 (Si querés ir más allá)
 
@@ -179,13 +179,187 @@ git merge nueva-idea
 
 ---
 
-## 📦 Resumen visual del flujo
+### 📦 Resumen visual del flujo
 
 ```plaintext
 Crea carpeta → git init → README.md → git add → git commit
 hola.py → git add → git commit → git log
 branch nueva → checkout → cambios → commit
 checkout main → diff → merge (opcional)
+
+```
+---
+
+## Actividad 2: Historial de cambios y commits eficientes
+
+### 🎯 Objetivo:
+
+* Hacer commits
+* Ver el historial con `git log`
+* Crear un alias útil
+* Aprender comandos combinados para mayor eficiencia
+
+### ✅ Pasos:
+
+1. Ingresar al repositorio:
+
+```bash
+cd repo-nuevo
+```
+
+2. Crear y guardar cambios con commits:
+
+```bash
+echo "print('Versión 2')" >> hola.py
+git add hola.py
+git commit -m "Versión 2 de hola.py"
+
+echo "print('Versión 3')" >> hola.py
+git add hola.py
+git commit -m "Versión 3 de hola.py"
+```
+
+3. Ver historial normal:
+
+```bash
+git log
+```
+
+4. Ver historial gráfico y colorido:
+
+```bash
+git log --graph --decorate --all --oneline
+```
+
+5. Crear un alias para ese comando:
+
+```bash
+git config --global alias.hist "log --graph --decorate --all --oneline"
+```
+
+Usar luego:
+
+```bash
+git hist
+```
+
+---
+
+### ✨ Tips opcionales:
+
+### 💡 Usar `commit -am` (solo archivos ya conocidos por Git):
+
+```bash
+echo "print('Versión 4')" >> hola.py
+git commit -am "Versión 4 de hola.py"
+```
+
+### 💡 Encadenar comandos con `&&`:
+
+```bash
+echo "print('Versión 5')" >> hola.py && git add hola.py && git commit -m "Versión 5 de hola.py"
+```
+
+---
+
+### 🧠 Pregunta final:
+
+> ¿Qué diferencia hay entre `git commit -am "mensaje"` y `git add archivo && git commit -m "mensaje"`?
+
+---
+
+## Actividad 3: Ignorar archivos con `.gitignore`
+
+### 🎯 Objetivo:
+
+Evitar subir archivos personales o temporales al repositorio.
+
+### ✅ Pasos:
+
+1. Crear archivos que queremos ignorar:
+
+```bash
+echo "nota temporal" > notas.txt
+echo "datos personales" > config.ini
+```
+
+2. Crear el archivo `.gitignore`:
+
+```bash
+echo "notas.txt" > .gitignore
+echo "config.ini" >> .gitignore
+```
+
+3. Verificar estado del repositorio:
+
+```bash
+git status
+```
+
+4. Agregar `.gitignore` al repo:
+
+```bash
+git add .gitignore
+git commit -m "Agrego .gitignore para ignorar archivos temporales"
+```
+
+---
+
+### 📝 Extra:
+
+Podés ignorar tipos de archivos o carpetas completas:
+
+```plaintext
+*.log
+temp/
+```
+
+---
+
+## Actividad 4: Ramas y combinación de cambios
+
+### 🎯 Objetivo:
+
+Practicar con `branch`, `checkout` y `merge`.
+
+### ✅ Pasos:
+
+1. Verificar que estás en la rama principal:
+
+```bash
+git checkout main
+```
+
+2. Crear y moverse a una nueva rama:
+
+```bash
+git checkout -b nueva-version
+```
+
+3. Hacer un cambio y guardarlo:
+
+```bash
+echo "print('Nueva función')" >> hola.py
+git add hola.py
+git commit -m "Agrego nueva función en hola.py"
+```
+
+4. Volver a la rama principal:
+
+```bash
+git checkout main
+```
+
+5. Unir los cambios de la nueva rama:
+
+```bash
+git merge nueva-version
+```
+
+6. Ver historial gráfico:
+
+```bash
+git hist
 ```
 
 ---
