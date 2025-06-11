@@ -111,7 +111,9 @@ Seteo de configuración global. Asociamos por única vez nuestro usuario y email
 Crear una carpeta de proyecto nuevo
 Ir a la  carpeta ´temp2025
 > cd c:\temp2025
+>
 > mkdir miProyecto
+>
 > cd miProyecto**
  
 Comprobar que el directorio esta vacio: 
