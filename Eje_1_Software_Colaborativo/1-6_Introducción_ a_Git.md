@@ -99,7 +99,9 @@ Git tiene tres niveles de configuración:
 Seteo de configuración global. Asociamos por única vez nuestro usuario y email:
 
 > git config --global user.name "lole-s"
+>
 > git config --global user.email "lole-s@colegio.com"  
+>
 > git config --global --list
 
 * ver archivo de configuración C:/Users/pc05/.gitconf o verificar config con el sig. comando:
