@@ -98,13 +98,19 @@ En la terminal integrada de VSC:
 
 ```bash
 git remote add origin https://github.com/TU_USUARIO/mi-primer-repo-vsc.git   
-# Agrega un “remoto” llamado origin que apunta a la URL de tu repositorio en GitHub. Así, tu repositorio local sabe a qué repositorio remoto debe conectarse para subir (push) o bajar (pull) cambios.
+# Agrega un “remoto” llamado origin que apunta a la URL de tu repositorio en GitHub.
+#Así, tu repositorio local sabe a qué repositorio remoto debe conectarse para subir
+#(push) o bajar (pull) cambios.
 
 git branch -M main                                                          
-# Renombra la rama actual a main. El parámetro -M fuerza el cambio de nombre, aunque la rama main ya exista. Es útil porque GitHub suele usar main como rama principal por defecto.
+# Renombra la rama actual a main. El parámetro -M fuerza el cambio de nombre, aunque
+#la rama main ya exista. Es útil porque GitHub suele usar main como rama principal por defecto.
 
 git push -u origin main                                                     
-# Sube (push) la rama main de tu repositorio local al repositorio remoto origin (el que configuraste antes). El parámetro -u establece una relación de seguimiento entre tu rama local main y la rama main remota, para que en el futuro puedas usar simplemente git push o git pull sin especificar la rama.
+# Sube (push) la rama main de tu repositorio local al repositorio remoto origin
+#(el que configuraste antes). El parámetro -u establece una relación de seguimiento
+#entre tu rama local main y la rama main remota, para que en el futuro puedas usar
+#simplemente git push o git pull sin especificar la rama.
 
 ```
 
