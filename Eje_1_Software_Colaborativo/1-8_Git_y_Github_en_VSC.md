@@ -49,7 +49,7 @@ git config --global user.email "tu@email.com"
 ### 1. Verificar que Git funcione
 
 * Abrí Visual Studio Code.
-* Abrí la terminal (`Ctrl + ~`) y escribí:
+* Abrí la terminal (`Ctrl + ñ`) y escribí:
 
   ```bash
   git --version
