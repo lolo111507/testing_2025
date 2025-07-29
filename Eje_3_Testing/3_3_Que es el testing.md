@@ -6,15 +6,11 @@ El *testing* (o prueba) es el proceso de **verificar si algo funciona correctame
 
 [video ejemplo](https://www.youtube.com/watch?v=mHd3QK2KURg)
 
+### [Importancia del Testing](https://app.ed.team/cursos/testing/01/02)
+
 ### En desarrollo de software
 
 El *testing de software* es el proceso de **probar un programa o aplicación para asegurarse de que haga lo que se espera** y detectar errores (*bugs*).
-
-Algunos conceptos clave:
-
-* 🐞 **Bug**: error o falla en el software.
-* ✅ **Prueba exitosa**: cuando el software hace lo que debe.
-* ❌ **Prueba fallida**: cuando se descubre un comportamiento incorrecto.
 
 ---
 
@@ -24,7 +20,7 @@ Es una forma de *testing* donde **la persona que prueba no sigue un guion fijo**
 
 ---
 
-## [ Error, Defecto y Falla | Falsos Positivos y Falsos Negativos](https://www.youtube.com/watch?v=COEdDGrb-hI)
+## [ Error, Defecto y Falla | Falsos Positivos y Falsos Negativos](https://app.ed.team/cursos/testing/01/03)
 
 ## Pruebas funcionales por *testing exploratorio*
 
@@ -40,4 +36,5 @@ Documentar los bugs encontrados con:
    * Qué esperaban que pasara
    * Qué pasó realmente
 
-Puesta en común al final.
+
+## [Calidad](https://app.ed.team/cursos/testing/01/04) 
