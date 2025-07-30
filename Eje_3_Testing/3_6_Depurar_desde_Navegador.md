@@ -41,18 +41,21 @@ Instrucciones:
 5. Probá hacer estos cambios (¡se ven solo en tu navegador!):
 
     a. ✅ Encontrá y cambiá un título
+   
         Buscá un elemento <h1>, <h2> o similar.
         Hacé doble clic sobre el texto y escribí otro mensaje (¡usá tu nombre o cualquier otra cosa!).
     
     b. ✅ Cambiá una imagen
+   
         Buscá un <img src="...">
         Reemplazá la URL del atributo src por otra imagen (por ejemplo: https://placekitten.com/300/200).
     
     c. ✅ Modificá el color de fondo
+   
         En la parte derecha, pestaña "Styles", buscá una línea que diga background-color.
         Cambiá el color a otro (por ejemplo, pink, blue, #FF5733, etc.).
 
-6. Tomá una captura de pantalla después de tus cambios.
+7. Tomá una captura de pantalla después de tus cambios.
 
 Desafío adicional (opcional):
 
