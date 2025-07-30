@@ -22,12 +22,12 @@ Una página web está formada por diferentes elementos estructurales, escritos p
 * JavaScript (opcional): agrega comportamientos dinámicos (formularios, menús, efectos).
 
 Cada sección de la página puede incluir:
-
+```
 - Títulos: <h1>, <h2>, etc.
 - Párrafos: <p>
 - Imágenes: <img>
 - Contenedores: <div>, <section>
-
+```
 Menús, botones, formularios, enlaces...
 
 Con las herramientas de desarrollador (DevTools), podemos ver todo ese código "detrás de escena" y modificarlo temporalmente desde el navegador.
