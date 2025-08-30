@@ -12,7 +12,6 @@ ___
 * Usar las herramientas de desarrollador del navegador (DevTools).
 * Inspeccionar, modificar y entender elementos visuales y su código fuente.
 
-
 🔧 Parte 1: Exploración básica con una web real (15-20 min)
 
 Una página web está formada por diferentes elementos estructurales, escritos principalmente en HTML y CSS:

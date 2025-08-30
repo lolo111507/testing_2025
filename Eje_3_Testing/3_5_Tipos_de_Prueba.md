@@ -1,7 +1,3 @@
-### repaso: importancia del tensting: 
-
-https://app.ed.team/cursos/testing/01/02
-
 ## Tipos de pruebas de Software
 
 El tipo de prueba de software depende de la forma en que se aplica y lo que desea verificar.
