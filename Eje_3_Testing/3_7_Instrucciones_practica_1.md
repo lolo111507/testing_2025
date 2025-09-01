@@ -13,7 +13,7 @@ Tu objetivo es **ejecutar el programa**, probar cada función con diferentes val
 
 ---
 
-## 📌 Pasos a seguir
+## Pasos a seguir
 1. Ejecuta el script en tu entorno Python.  
 2. Elige una función del menú.  
 3. Ingresa diferentes datos de prueba (casos normales y extremos).  
@@ -25,7 +25,7 @@ Tu objetivo es **ejecutar el programa**, probar cada función con diferentes val
 
 ---
 
-## 🧪 Ejemplos de pruebas sugeridas
+##  Ejemplos de pruebas sugeridas
 - **Suma**: prueba `3 + 2`, `5 + 0`, `-1 + 4`.  
 - **Promedio**: prueba con `[10, 20, 30]`, `[1, 2]`, lista con un solo número.  
 - **Factorial**: prueba con `0`, `1`, `5`.  

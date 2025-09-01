@@ -6,7 +6,7 @@ https://es.javascript.info/debugging-chrome
 
 ___
 
-🎯 Objetivo de la actividad
+Objetivo de la actividad
 
 * Comprender la estructura básica de una página web (HTML, CSS, JS).
 * Usar las herramientas de desarrollador del navegador (DevTools).
