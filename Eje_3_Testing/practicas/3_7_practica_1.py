@@ -2,10 +2,10 @@ def suma(a, b):
     return a - b
 
 def promedio(lista):
-    return sum(lista) / (len(lista) - 1)
+    return sum(lista) / len(lista)
 
 def factorial(n):
-    resultado = 0
+    resultado = 1
     for i in range(1, n+1):
         resultado *= i
     return resultado
