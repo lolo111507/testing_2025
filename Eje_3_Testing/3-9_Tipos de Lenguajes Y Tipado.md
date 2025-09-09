@@ -68,6 +68,7 @@ https://nodejs.org/en/about
 ### Tipado Estático - Tipado Dinámico
 https://www.youtube.com/watch?v=M32Az-IRUQI
 
+- https://recursospython.com/guias-y-manuales/tipado-dinamico-y-tipado-fuerte/ 
 - https://www.baumannzone.dev/blog/about-testing
 - https://www.baumannzone.dev/blog/testing-con-javascript
 - https://github.com/baumannzone/javascript-testing
