@@ -94,3 +94,15 @@ Total con descuento: 280
 Un recurso visual, simple y entretenido para chicos de 16–18 años que ya saben un poco de Python:
 
 👉 [Técnicas de Depuración (Debugging) en Python](https://www.youtube.com/watch?v=XTzUluo1e2o)
+
+
+### otros Enlaces de interes: 
+
+https://learn.microsoft.com/es-es/visualstudio/python/debugging-python-in-visual-studio?view=vs-2022
+
+
+- 👉 Debugging en Python con VS Code (Spanish)
+https://www.youtube.com/watch?v=9iZk-fxWjS4
+
+
+----.

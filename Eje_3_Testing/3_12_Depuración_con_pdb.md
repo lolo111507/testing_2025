@@ -103,3 +103,51 @@ print("Resultado:", calcular(4, 2, "suma"))
 * Usá `s` para entrar en la función llamada.
 * Descubrí qué función se ejecuta realmente.
 * Corregí la lógica.
+
+
+
+__ 
+## NOTA: 
+
+
+* **Antes de python 3.7** → había que `import pdb` y escribir `pdb.set_trace()`.
+* **Desde 3.7** → con `breakpoint()` ya alcanza.
+
+
+#### Ejemplo 1 — Usando `breakpoint()` (Python ≥ 3.7)
+
+```python
+def contar_letras(palabra):
+    print("Voy a contar las letras de:", palabra)
+    breakpoint()   # hace lo mismo que pdb.set_trace()
+    return len(palabra)
+
+print("Resultado:", contar_letras("hola"))
+```
+
+---
+
+## Ejemplo2  — Usando `pdb.set_trace()` (Python < 3.7)
+
+```python
+import pdb
+
+def contar_letras(palabra):
+    print("Voy a contar las letras de:", palabra)
+    pdb.set_trace()   # aquí el programa se detiene y entra al depurador
+    return len(palabra)
+
+print("Resultado:", contar_letras("hola"))
+```
+
+Cuando el código llega a `pdb.set_trace()`, se abre el modo interactivo `pdb`.
+
+Se pueden usar comandos como:
+
+* `n` → siguiente línea
+* `c` → continuar
+* `p palabra` → imprimir el valor de la variable
+
+---
+
+

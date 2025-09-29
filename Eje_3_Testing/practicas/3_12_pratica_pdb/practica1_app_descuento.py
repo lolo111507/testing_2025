@@ -34,6 +34,7 @@ def aplicar_descuento(precio, porcentaje):
 
 def procesar_carrito():
     productos = [
+        #(nombre, precio, cantidad)
         ("Manzanas", 100, 2),   # 200
         ("Peras", 50, 4),       # 200
         ("Bananas", 80, 1)      # 80
