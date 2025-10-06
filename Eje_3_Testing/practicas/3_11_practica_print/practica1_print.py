@@ -5,10 +5,10 @@ def contar_caracteres(frase):
     """
     contador = 0
     for letra in frase:
-#        print(f"[DEBUG] letra actual: '{letra}'")  # print intermedio
+        print(f"[DEBUG] letra actual: '{letra}'")   # print intermedio
         if letra.isalpha():
             contador += 1
-#        print(f"[DEBUG] contador parcial: {contador}")  # print intermedio
+        print(f"[DEBUG] contador parcial: {contador}")  # print intermedio
     return contador
 
 # Ejemplos para probar
