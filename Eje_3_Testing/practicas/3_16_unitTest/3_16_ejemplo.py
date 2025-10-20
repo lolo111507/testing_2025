@@ -5,4 +5,4 @@ def es_par(n):
 # Pruebas manuales
 assert es_par(2) == True
 assert es_par(3) == False
-assert es_par(0) == True
+assert es_par(0) != True

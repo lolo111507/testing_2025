@@ -27,8 +27,8 @@ def verificar_edad_avanzado(edad_str):
 
 # Pruebas
 print("\n--- Casos con diferentes tipos de errores ---")
-verificar_edad_avanzado("25")     # ✅ Número válido +18
-verificar_edad_avanzado("15")     # ✅ Número válido -18
+#verificar_edad_avanzado("25")     # ✅ Número válido +18
+#verificar_edad_avanzado("15")     # ✅ Número válido -18
 verificar_edad_avanzado("veinte") # ❌ Error de conversión
-verificar_edad_avanzado("-5")     # ❌ AssertionError
-verificar_edad_avanzado("150")    # ❌ AssertionError
+#verificar_edad_avanzado("-5")     # ❌ AssertionError
+#verificar_edad_avanzado("150")    # ❌ AssertionError

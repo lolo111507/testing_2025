@@ -17,11 +17,6 @@ def verificar_edad_basico(edad):
         return False
 
 # Pruebas
-print("\n--- Probando edades válidas ---")
-verificar_edad_basico(20)  # ✅ Debe funcionar
-verificar_edad_basico(16)  # ✅ Debe funcionar
-verificar_edad_basico(-5)  # ❌ Debe fallar
-
 try:
     verificar_edad_basico(150)  # ❌ Debe fallar
 except AssertionError as e:
